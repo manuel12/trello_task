@@ -7,7 +7,3 @@ module.exports = {
 		cb();
 	}
 }
-
-function login() {
-
-}
