@@ -1,6 +1,14 @@
 # The Trello Task
 A web automation task over the Trello website
 
+
+**Functionality Priorities & Test Cases:**
+
+Trello Board_ Test Cases - Test Cases.pdf,
+
+Trello Board_ Test Cases - Functionality priorities.pdf
+
+
 **TO RUN THE TESTS:**
 
 INSTALLATION: - Type the following commands on console:
