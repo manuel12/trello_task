@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="eco"
+    errors="2" failures="1" hostname="" id="" package="eco" skipped="0"
+    tests="1" time="10.64" timestamp="">
+  
+    <testcase name="Demo test ecosia.org" classname="eco" time="10.64" assertions="5">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element [0;33m&lt;.mainline-results&gt;[0m contains text [0;33m&#39;Nightwatch.js&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Nightwatch.js&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5248ms)[0m">    at Object.Demo test ecosia.org (C:\wamp\www\automation\Code_Challenge\tests\eco.js:11:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    <failure message="    at Object.Demo test ecosia.org (C:\wamp\www\automation\Code_Challenge\tests\eco.js:11:15)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TimeoutError: An error occurred while running .click() command on &lt;button[type=submit]&gt;:   (Session info: chrome=78.0.3904.108),  (Driver info: chromedriver=77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}),platform=Windows NT 6.3.9600 x86_64); element click intercepted: Element &lt;button type=&#34;submit&#34; role=&#34;button&#34; aria-label=&#34;Submit&#34; class=&#34;icon-button button button-submit icon-button--elevation-0 icon-button--size-m icon-button--variant-bare&#34; data-v-84c34dc0=&#34;&#34; data-v-e4880950=&#34;&#34;&gt;...&lt;/button&gt; is not clickable at point (815, 267). Other element would receive the click: &lt;div class=&#34;main-popup&#34; data-v-48b2483e=&#34;&#34;&gt;...&lt;/div&gt;
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element click intercepted: Element &lt;button type=\&#34;submit\&#34; role=\&#34;button\&#34; aria-label=\&#34;Submit\&#34; class=\&#34;icon-button button button-submit icon-button--elevation-0 icon-button--size-m icon-button--variant-bare\&#34; data-v-84c34dc0=\&#34;\&#34; data-v-e4880950=\&#34;\&#34;&gt;...&lt;/button&gt; is not clickable at point (815, 267). Other element would receive the click: &lt;div class=\&#34;main-popup\&#34; data-v-48b2483e=\&#34;\&#34;&gt;...&lt;/div&gt;&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=78.0.3904.108)&#34;,&#34;  (Driver info: chromedriver=77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}),platform=Windows NT 6.3.9600 x86_64)&#34;]},&#34;errorStatus&#34;:64,&#34;error&#34;:&#34;element click intercepted: Element &lt;button type=\&#34;submit\&#34; role=\&#34;button\&#34; aria-label=\&#34;Submit\&#34; class=\&#34;icon-button button button-submit icon-button--elevation-0 icon-button--size-m icon-button--variant-bare\&#34; data-v-84c34dc0=\&#34;\&#34; data-v-e4880950=\&#34;\&#34;&gt;...&lt;/button&gt; is not clickable at point (815, 267). Other element would receive the click: &lt;div class=\&#34;main-popup\&#34; data-v-48b2483e=\&#34;\&#34;&gt;...&lt;/div&gt;&#34;,&#34;httpStatusCode&#34;:200}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;.mainline-results&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;0443355757554124b7ea523aff380a14&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:93:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
