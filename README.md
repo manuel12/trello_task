@@ -17,8 +17,6 @@ INSTALLATION: - Type the following commands on console:
   
   npm install chromedriver --save-dev
   
-  npm install selenium-server --save-dev
-  
   or
   
   npm install ;)
