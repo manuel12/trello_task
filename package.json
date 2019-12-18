@@ -13,8 +13,6 @@
   "devDependencies": {
     "chromedriver": "^79.0.0",
     "dotenv": "^7.0.0",
-    "nightwatch": "^1.2.4",
-    "selenium-server": "^3.141.59",
-    "selenium-standalone": "^6.17.0"
+    "nightwatch": "^1.2.4"
   }
 }
